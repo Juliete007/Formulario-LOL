@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'BeaufortForLol';
+    src: url('BeaufortForLoL-OTF\BeaufortforLOL-Regular.otf') format('opentype');
+}
+
+body {
+    background-color: #1a1a1a;
+}
+
+#contenedor {
+    background-color: #353535;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 0.7vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    padding-top: 1vh;
+    padding-bottom: 3vh;
+}
+
+#datos {
+    font-size: larger;
+    text-align: left;
+}
+
+#datos li{
+    margin-bottom: 1vh;
+}
+
+#contenedor h1 {
+    font-size: 2.5vh;
+    margin-bottom: 2vh;
+}
+
+#formulario fieldset {
+    text-align: left;
+    border: 1px solid #000000;
+    padding: 10px;
+    margin: 10px 0; 
+    border-radius: 0.4vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#formulario fieldset input {
+    width: 100%;
+    margin-bottom: 0.5vh;
+    padding: 3px;
+    margin-left: 1vh;
+}
+
+#formulario fieldset text {
+    margin-right: 1vh;
+}
+
+#formulario fieldset label {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    align-items: flex-start
+}
+
+#mover {
+    display: flex;
+    flex-direction:column;
+    align-items: left;
+}
+
+#mover label {
+    text-align: left;
+    margin-left: 1vh;
+}
+
+#mover label input {
+    margin-left: 1vh;
+}
+
+
+#formulario {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#formulario label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+#formulario select,
+#formulario button {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#boton {
+    margin-top: 2vh;
+    text-align: center;
+}
+
+#boton_enviar {
+    background-color: #3498db; 
+    color: #fff; 
+    padding: 10px 20px;
+    font-size: 16px; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+
+    transition: background-color 0.5s ease, transform 0.5s ease; 
+
+}
+
+#boton_enviar:hover {
+    background-color: #2980b9; 
+    transform: scale(1.1);
+}
+
