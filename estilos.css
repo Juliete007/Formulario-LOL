@@ -7,6 +7,12 @@ body {
     background-color: #1a1a1a;
 }
 
+#logo {
+    max-width: 100%;
+    width: 60%;
+    height: auto;
+}
+
 #contenedor {
     background-color: #353535;
     color: #fff;
@@ -31,11 +37,6 @@ body {
     margin-bottom: 1vh;
 }
 
-#contenedor h1 {
-    font-size: 2.5vh;
-    margin-bottom: 2vh;
-}
-
 #formulario fieldset {
     text-align: left;
     border: 1px solid #ffffff;
@@ -46,7 +47,10 @@ body {
     flex-direction: column;
 }
 
-#formulario fieldset input {
+#name,
+#surname,
+#email,
+#city {
     width: 100%;
     margin-bottom: 0.5vh;
     padding: 3px;
@@ -121,4 +125,3 @@ body {
     background-color: #2980b9; 
     transform: scale(1.1);
 }
-
